@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="495751" started-at="2016-01-05T06:46:54Z" finished-at="2016-01-05T06:55:10Z">
+    <groups>
+    </groups>
+    <test name="Advertising Canada" duration-ms="495751" started-at="2016-01-05T06:46:54Z" finished-at="2016-01-05T06:55:10Z">
+      <class name="com.Automation_Framework.testcases.ContactForm">
+        <test-method status="PASS" signature="browserSelect(java.lang.String)[pri:0, instance:com.Automation_Framework.testcases.ContactForm@169d6a08]" name="browserSelect" is-config="true" duration-ms="3011" started-at="2016-01-05T12:16:54Z" finished-at="2016-01-05T12:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSelect -->
+        <test-method status="PASS" signature="browserSelect(java.lang.String)[pri:0, instance:com.Automation_Framework.frameworkengine.Init@14325ad8]" name="browserSelect" is-config="true" duration-ms="1783" started-at="2016-01-05T12:16:57Z" finished-at="2016-01-05T12:16:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSelect -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.Automation_Framework.testcases.ContactForm@169d6a08]" name="test" duration-ms="11294" started-at="2016-01-05T12:16:59Z" finished-at="2016-01-05T12:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Automation_Framework.frameworkengine.Init@14325ad8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-01-05T12:25:10Z" finished-at="2016-01-05T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Automation_Framework.testcases.ContactForm@169d6a08]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-01-05T12:25:10Z" finished-at="2016-01-05T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Automation_Framework.testcases.ContactForm -->
+      <class name="com.Automation_Framework.frameworkengine.Init">
+        <test-method status="PASS" signature="allLinks()[pri:0, instance:com.Automation_Framework.frameworkengine.Init@14325ad8]" name="allLinks" duration-ms="477780" started-at="2016-01-05T12:17:10Z" finished-at="2016-01-05T12:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinks -->
+        <test-method status="PASS" signature="screenShot()[pri:0, instance:com.Automation_Framework.frameworkengine.Init@14325ad8]" name="screenShot" duration-ms="1866" started-at="2016-01-05T12:25:08Z" finished-at="2016-01-05T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.Automation_Framework.frameworkengine.Init -->
+    </test> <!-- Advertising Canada -->
+  </suite> <!-- Suite -->
+</testng-results>

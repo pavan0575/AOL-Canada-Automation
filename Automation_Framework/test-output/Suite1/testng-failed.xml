@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="none">
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="com.Automation_Framework.frameworkengine.Init">
+        <methods>
+          <include name="screenShot"/>
+          <include name="allLinks"/>
+        </methods>
+      </class> <!-- com.Automation_Framework.frameworkengine.Init -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="Firefox"/>
+  <test name="Advertising Canada(failed)" parallel="none">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.Automation_Framework.frameworkengine.Init">
+        <methods>
+          <include name="screenShot"/>
+          <include name="closeBrowser"/>
+          <include name="browserSelect"/>
+        </methods>
+      </class> <!-- com.Automation_Framework.frameworkengine.Init -->
+      <class name="com.Automation_Framework.testcases.ContactForm">
+        <methods>
+          <include name="browserSelect"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Automation_Framework.testcases.ContactForm -->
+    </classes>
+  </test> <!-- Advertising Canada(failed) -->
+</suite> <!-- Failed suite [Suite] -->
